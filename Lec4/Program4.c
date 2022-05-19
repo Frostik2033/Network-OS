@@ -1,13 +1,15 @@
 #include<stdio.h>
 #include<wait.h>
 #include<signal.h>
+#include <unistd.h>
+#include<stdlib.h>
 pid_t pid;
 int counter = 0;
 void handler1(int sig)
 {
 	counter++;
 	printf("counter = %d\n", counter);
-	//Flushes the printed string to stdout
+	/* Flushes the printed string to stdout */
 	fflush(stdout);
 	kill(pid, SIGUSR1);
 }

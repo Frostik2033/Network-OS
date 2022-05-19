@@ -2,6 +2,7 @@
 #include <fcntl.h>
 #include <string.h>
 #include <stdio.h>
+#include <unistd.h>
 #define NAMEDPIPE_NAME "mypipe" //имя файла канала
 #define BUFSIZE 50
 int main(int argc, char **argv)
