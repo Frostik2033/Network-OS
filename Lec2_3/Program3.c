@@ -3,11 +3,9 @@
 #include <errno.h>
 #include <sys/wait.h>
 #include <sys/types.h>
-int main()
-{
+int main() {
 	int pid = fork();
-	switch (pid)
-        {
+	switch (pid) {
 	case -1:
 		perror("fork");
 		return -1;
