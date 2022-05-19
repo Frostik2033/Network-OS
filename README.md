@@ -12,7 +12,7 @@
 Операционные системы, подходящие для установки и запуска программ:
 - GNU/Linux.
 - Mac OS.
-___
+
 ## <a name="Lecture2_3">Лекции 2-3</a>
 #### <a name="Program1">Program1</a>  
 Пример программы динамического выделения памяти для массива.
@@ -29,7 +29,7 @@ All fine
 Enter length of array: -10  
 Error: can't allocate memory 
 ```
-___ 
+
 #### <a name="Program2">Program2</a>  
 Пример программы для чтения данных из файла.  
 
@@ -41,7 +41,7 @@ fd = 3
 called read( 3, c, 10). returned that 0 bytes were read.  
 closed the fd.  
 ```
-___
+
 #### <a name="Program3">Program3</a>  
 Пример программы системного вызова fork().  
 
@@ -52,7 +52,7 @@ ___
 my pid = 22781, returned pid = 22782
 my pid = 22782, returned pid = 0
 ```
-___
+
 ## <a name="Lecture4">Лекция 4</a>
 #### <a name="Program4">Program4</a>  
 Сигналы. Пример работы программы.
@@ -65,7 +65,7 @@ counter = 1
 counter = 3  
 counter = 5  
 ```
-___ 
+
 #### <a name="Program5">Program5</a>  
 Неименованные каналы. Пример работы программы.
 
@@ -76,7 +76,7 @@ ___
 ./prog2.out unnamed
 unnamed
 ```
-___
+
 #### <a name="Program6">Program6</a>  
 Именованные каналы. Пример работы программы.
 
@@ -91,4 +91,3 @@ Incomming message (8): Eureka!
   
 read error: Success  
 ```
-___
