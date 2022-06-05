@@ -8,7 +8,8 @@
   + [Program4](#Program4)
   + [Program5](#Program5)
   + [Program6](#Program6)
-
++ [Lec7](#Lecture7)
+  + [Program7](#Program7)
 Операционные системы, подходящие для установки и запуска программ:
  GNU/Linux.
  Mac OS.
@@ -92,4 +93,53 @@ mypipe is opened
 Incomming message (8): Eureka! 
   
 read error: Success  
+```
+## <a name="Lecture7">Лекция 7</a>
+#### <a name="Program7">Program7</a>  
+Пример работы программы c потоками.
+
+Основа потока реализуется в функции `thread_func`, а создание потока происходит с помощью функции `pthread_create(&thread, NULL, thread_func, NULL)`, где: `&thread` - идентификатор потока, `NULL` - параметры потока, где NULL является атрибутом по умолчанию, `thread_func` - указатель на потоковую функцию и `NULL` - указатель на передаваемые данные в поток. Функция `pthread_join` ожидает завершения потока `thread`, а торой параметр этой функции - результат, возвращаемый потоком.
+
+Тестирование  
+```
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
 ```
