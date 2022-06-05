@@ -1,17 +1,17 @@
 # Network-OS
 Оглавление:
-+ [Lec2_3](#Lecture2_3)
-   + [Program1](#Program1)
-   + [Program2](#Program2)
-   + [Program3](#Program3)
-+ [Lec4](#Lecture4)
-   + [Program4](#Program4)
-   + [Program5](#Program5)
-   + [Program6](#Program6)
+[Lec2_3](#Lecture2_3)
+   [Program1](#Program1)
+   [Program2](#Program2)
+   [Program3](#Program3)
+[Lec4](#Lecture4)
+   [Program4](#Program4)
+   [Program5](#Program5)
+   [Program6](#Program6)
 
 Операционные системы, подходящие для установки и запуска программ:
-- GNU/Linux.
-- Mac OS.
+ GNU/Linux.
+ Mac OS.
  
 Программные коды можно скомпилировать с помощью make-файла или использовать компилятор gcc. Используя ручную компиляцию, необходимо перейти в папку с программным кодом и вызвать компилятор, написав команду `gcc program_filename.c -o executable_filename.out`. Рекомендуется пользоваться Makefile'ом, где все шаги уже предусмотрены. Чтобы использовать make-файл необходимо находиться в корневой папке репозитория.
 
