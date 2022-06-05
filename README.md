@@ -10,6 +10,7 @@
   + [Program6](#Program6)
 + [Lec7](#Lecture7)
   + [Program7](#Program7)
+ 
 Операционные системы, подходящие для установки и запуска программ:
  GNU/Linux.
  Mac OS.
