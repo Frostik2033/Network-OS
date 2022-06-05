@@ -1,13 +1,13 @@
 # Network-OS
 Оглавление:
-+[Lec2_3](#Lecture2_3)
-  +[Program1](#Program1)
-  +[Program2](#Program2)
-  +[Program3](#Program3)
-+[Lec4](#Lecture4)
-  +[Program4](#Program4)
-  +[Program5](#Program5)
-  +[Program6](#Program6)
++ [Lec2_3](#Lecture2_3)
+  + [Program1](#Program1)
+  + [Program2](#Program2)
+  + [Program3](#Program3)
++ [Lec4](#Lecture4)
+  + [Program4](#Program4)
+  + [Program5](#Program5)
+  + [Program6](#Program6)
 
 Операционные системы, подходящие для установки и запуска программ:
  GNU/Linux.
